@@ -12,8 +12,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="nav-outer">
-      <nav className={`container ${sticky ? "dark-nav" : ""}`}>
+    <div className={`nav-outer ${sticky ? "dark-nav" : ""}`}>
+      <nav className="container">
         <img src={logo} alt="" className="logo" />
         <ul>
           <li>Home</li>
